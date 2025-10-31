@@ -1,4 +1,3 @@
-```
 import os
 import asyncio
 from telegram import Update
@@ -22,9 +21,8 @@ def main():
     app.add_handler(CommandHandler("meeting", meeting))
     app.add_handler(CommandHandler("help", help_command))
     
-    print("البوت يعمل...")
+    print("✅ البوت يعمل...")
     app.run_polling()
 
 if __name__ == "__main__":
     main()
-```
